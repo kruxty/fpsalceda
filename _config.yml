@@ -35,10 +35,13 @@ github_username:  jekyll
 #theme: minima
 #theme: jekyll-theme-yat
 #theme: minimal-mistakes-jekyll
-remote_theme: "mmistakes/minimal-mistakes"
+remote_theme: "mmistakes/minimal-mistakes@4.27.3"
+
 plugins:
   - jekyll-remote-theme
   - jekyll-include-cache
+
+# Otras configuraciones del sitio (url, baseurl, titulo, etc.)
 minimal_mistakes_skin: "aqua" # "default", "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 custom_css:
   - /assets/css/custom.css
