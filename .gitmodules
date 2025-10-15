@@ -1,0 +1,4 @@
+[submodule "minimal-mistakes-theme"]
+    path = minimal-mistakes-theme
+    url = https://github.com/mmistakes/minimal-mistakes.git
+	

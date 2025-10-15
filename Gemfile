@@ -7,7 +7,14 @@ source "https://rubygems.org"
 #
 # This will help ensure the proper Jekyll version is running.
 # Happy Jekylling!
-gem "jekyll", "~> 4.4.1"
+#gem "jekyll", "~> 4.4.1"
+gem "jekyll", "~> 3.9.0"
+gem "jekyll-remote-theme", group: :jekyll_plugins
+gem "jekyll-include-cache", group: :jekyll_plugins
+gem "jekyll-agency", "~> 1.0"
+
+gem "github-pages", "~> 210", group: :jekyll_plugins  # o la versión que sea compatible según las recomendaciones oficiales
+
 # This is the default theme for new Jekyll sites. You may change this to anything you like.
 #gem "minima", "~> 2.5"
 #gem "jekyll-theme-yat"
@@ -34,4 +41,6 @@ gem "wdm", "~> 0.1", :platforms => [:mingw, :x64_mingw, :mswin]
 # do not have a Java counterpart.
 gem "http_parser.rb", "~> 0.6.0", :platforms => [:jruby]
 
-gem "jekyll-agency", "~> 1.0"
+
+
+
