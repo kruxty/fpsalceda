@@ -1,0 +1,49 @@
+/* Contenedor fijo para el video fondo */
+.video-background {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  z-index: -1; /* Detrás del contenido */
+}
+
+/* Ajusta el video para cubrir toda la pantalla y mantener proporción */
+.video-background video {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  transform: translate(-50%, -50%);
+  object-fit: cover;
+}
+
+/* Contenido principal encima del video, con z-index superior */
+.site-content, .masthead {
+  position: relative;
+  z-index: 10;
+  background: transparent !important; /* Quita fondo si existiera */
+}
+
+/* Opcional: texto del menú blanco para contrastar */
+.masthead__menu-item a {
+  color: #fff !important;
+}
+
+/* Opcional: color al pasar el mouse */
+.masthead__menu-item a:hover {
+  color: #f0c040 !important;
+}
+/* Forzar que la barra sea visible y esté encima */
+#acctoolbar,
+#acctoolbar * {
+  z-index: 999999 !important;
+  position: fixed !important;
+  opacity: 1 !important;
+  visibility: visible !important;
+  pointer-events: auto !important;
+}

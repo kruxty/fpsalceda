@@ -1,0 +1,24 @@
+main:
+  - title: "Nosotros"
+    url: /nosotros/
+  - title: "Oferta académica"
+    url: /oferta/
+  - title: "Tablón de secretaría"
+    url: /secretaria/
+  - title: ""
+    url: /posts/
+#    target: _blank
+
+oferta:
+  - title: "Ciclos formativos"
+    children:
+     - title: "Grado básico de Alojamiento y lavandería"
+       url: /oferta/gbalojamiento/
+     - title: "Grado básico de Servidios administrativos"
+       url: /oferta/gbsao/
+     - title: "Grado básico de Informatica de oficina"
+       url: /oferta/gbinfor/
+     - title: "Grado medio de Gestión administrativa"
+       url: /oferta/gmgestion/
+     - title: "Grado medio de Cuidados auxiliares y enfermería"
+       url: /oferta/gmtcae/

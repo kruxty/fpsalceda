@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Test Accesibilidad</title>
+</head>
+<body>
+
+<script src="https://cdn.jsdelivr.net/gh/mickidum/acc_toolbar/acctoolbar/acctoolbar.min.js"></script>
+<script>
+  window.onload = function() {
+    window.micAccessTool = new MicAccessTool({
+      link: '/accesibilidad.pdf',
+      contact: 'mailto:contacto@tuweb.com',
+      buttonPosition: 'right',
+      forceLang: 'es-ES'
+    });
+    console.log('Accesibilidad cargada');
+  };
+</script>
+
+</body>
+</html>
