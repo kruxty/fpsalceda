@@ -12,7 +12,7 @@ source "https://rubygems.org"
 gem "jekyll", "~> 3.7"
 gem "jekyll-remote-theme", group: :jekyll_plugins
 gem "jekyll-include-cache", group: :jekyll_plugins
-gem "github-pages", group: :jekyll_plugins
+##gem "github-pages", group: :jekyll_plugins
 gem "jekyll-agency", "~> 1.0"
 
 gem "github-pages", "~> 210", group: :jekyll_plugins  # o la versión que sea compatible según las recomendaciones oficiales
